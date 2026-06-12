@@ -10,7 +10,7 @@
     <meta property="og:title" content="LEKAS — UX Case Study" />
     <meta property="og:type" content="website" />
     <title>LEKAS</title>
-    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="icon" type="image/png" href="img/1.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,20 +23,18 @@
     <!-- NAV -->
     <nav class="nav" id="nav">
       <a class="nav-brand" href="#hero">
-        <img class="nav-logo" src="img/logo.png" alt="LEKAS Logo" width="32" height="32" />
+        <img class="nav-logo" src="img/1.png" alt="LEKAS Logo" width="40" height="40" />
         <span class="nav-name">LEKAS</span>
       </a>
       <ul class="nav-links">
         <li><a href="#why">Tentang</a></li>
-        <li><a href="#empathize">Berempati</a></li>
-        <li><a href="#define">Definisi</a></li>
-        <li><a href="#ideate">Berideasi</a></li>
-        <li><a href="#prototype">Prototipe</a></li>
-        <li><a href="#test">Tes</a></li>
+        <li><a href="#empathize">Empathize</a></li>
+        <li><a href="#define">Define</a></li>
+        <li><a href="#ideate">Ideate</a></li>
+        <li><a href="#prototype">Prototype</a></li>
+        <li><a href="#test">Test</a></li>
       </ul>
-      <div class="nav-cta-w">
-        <a href="#prototype" class="btn-p">Lihat Prototipe</a>
-      </div>
+
     </nav>
 
     <!-- HERO — hero-band-light -->
@@ -58,9 +56,10 @@
               <div class="aicon">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                   <path
-                    d="M2 10.5l2-5 3 3.5 2-2.5 3 4H2z"
+                    d="M2.5 7.5l1.5-2.5A1.5 1.5 0 0 1 5.3 4h3.4a1.5 1.5 0 0 1 1.3 1l1.5 2.5M1.5 7.5h11a1 1 0 0 1 1 1v1.5a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V8.5a1 1 0 0 1 1-1zM3.5 11v1.5M10.5 11v1.5"
                     stroke="#2563EB"
                     stroke-width="1.2"
+                    stroke-linecap="round"
                     stroke-linejoin="round"
                   />
                 </svg>
@@ -101,15 +100,17 @@
             <div class="arow">
               <div class="aicon">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <circle
-                    cx="7"
-                    cy="7"
-                    r="2.5"
+                  <rect
+                    x="2"
+                    y="3.5"
+                    width="10"
+                    height="8.5"
+                    rx="1.5"
                     stroke="#2563EB"
                     stroke-width="1.2"
                   />
                   <path
-                    d="M7 1.5v1.5M7 11v1.5M1.5 7H3M11 7h1.5"
+                    d="M4 2v3M10 2v3M2 6.5h10"
                     stroke="#2563EB"
                     stroke-width="1.2"
                     stroke-linecap="round"
@@ -117,10 +118,10 @@
                 </svg>
               </div>
               <div class="aname">
-                Pengiriman<span class="atick">Barang</span>
+                Penjadwalan<span class="atick">Perjalanan</span>
               </div>
               <div class="aprice">
-                Rp 15.000<span class="achg dn">Segera</span>
+                Besok, 08:00<span class="achg up">Terjadwal</span>
               </div>
             </div>
           </div>
@@ -135,15 +136,13 @@
           <div class="eyebrow">
             <span class="blink"></span>UX Design Case Study
           </div>
-          <h1 class="h1">Portofolio<br /><em>LEKAS</em></h1>
+          <h1 class="h1"><em>LEKAS</em></h1>
           <p class="hero-sub">
-            Solusi transportasi modern yang menghubungkan kebutuhan mobilitas
-            Anda dengan kenyamanan dan keamanan — didesain dari riset nyata
-            dalam 4 minggu menggunakan Figma dan FigJam.
+            Aplikasi transportasi yang dirancang berdasarkan riset pengguna untuk membantu perjalanan sehari-hari melalui pemesanan transportasi, makanan, penjadwalan perjalanan, serta fitur keamanan seperti Share Location dan SOS Darurat.
           </p>
           <div class="hero-btns">
             <a href="#prototype" class="btn-hero">
-              Lihat Prototipe
+              Lihat Prototype
               <svg
                 width="13"
                 height="13"
@@ -195,10 +194,10 @@
             class="card rv d2"
             style="text-align: center; padding: var(--s32) var(--s24)"
           >
-            <div class="stat-n">5/5</div>
-            <div class="cap">Tugas Berhasil</div>
+            <div class="stat-n">4</div>
+            <div class="cap">Fitur Utama</div>
           </div>
-        </div>
+        </div>  
         <div class="g2">
           <div class="card rv">
             <div class="iplate">
@@ -275,7 +274,7 @@
     <!-- EMPATHIZE — soft -->
     <div class="band bs" id="empathize">
       <div class="inner">
-        <div class="pill">Fase 01 — Empathize</div>
+        <div class="pill">Fase 01</div>
         <h2 class="dh">1. <em>Empathize</em></h2>
         <p class="bm">
           Untuk memahami kebutuhan dan permasalahan pengguna, dilakukan wawancara mendalam terhadap beberapa 
@@ -300,29 +299,25 @@
               <li>
                 <span class="dot"></span
                 ><span
-                  ><strong>Tampilan Terlalu Ribet</strong> — layanan yang
-                  dibutuhkan sulit ditemukan</span
+                  ><strong>Keamanan Pengguna</strong> — pengguna, terutama perempuan, membutuhkan rasa aman yang lebih tinggi</span
                 >
               </li>
               <li>
                 <span class="dot"></span
                 ><span
-                  ><strong>Ketersediaan Layanan</strong> — sulit dapat kendaraan
-                  di area tertentu</span
+                  ><strong>Estimasi Kurang Akurat</strong> —ketidakpastian waktu perjalanan</span
                 >
               </li>
               <li>
                 <span class="dot"></span
                 ><span
-                  ><strong>Butuh Fleksibilitas</strong> — ingin komunikasi lebih
-                  langsung ke driver</span
+                  ><strong>Informasi Kurang Presisi</strong> — titik jemput, lokasi driver, dan informasi kendaraan terkadang membingungkan</span
                 >
               </li>
               <li>
                 <span class="dot"></span
                 ><span
-                  ><strong>Preferensi Desain</strong> — ingin tampilan menarik
-                  dan kekinian</span
+                  ><strong>Perilaku Driver</strong> — sikap driver sangat memengaruhi kenyamanan perjalanan</span
                 >
               </li>
             </ul>
@@ -361,36 +356,12 @@
     <!-- DEFINE — white -->
     <div class="band bw" id="define">
       <div class="inner">
-        <div class="pill">Fase 02 — Mendefinisikan</div>
-        <h2 class="dh">2. <em>Definisi</em></h2>
+        <div class="pill">Fase 02</div>
+        <h2 class="dh">2. <em>Define</em></h2>
         <p class="bm">
           Berdasarkan hasil empati, mendefinisikan masalah inti dan merumuskan
           peluang solusi yang terukur dan dapat dieksekusi.
         </p>
-        <div class="card rv">
-          <div class="tm">Prioritas Masalah — Highest Impact</div>
-          <div class="prow">
-            <span class="pn">1</span
-            ><span
-              ><strong>Pintasan Tiga Tombol</strong> — layanan cepat pemesanan
-              tanpa langkah berlebihan</span
-            >
-          </div>
-          <div class="prow">
-            <span class="pn">2</span
-            ><span
-              ><strong>Saran Berbasis Lokasi</strong> — rekomendasi otomatis
-              berdasarkan posisi pengguna</span
-            >
-          </div>
-          <div class="prow">
-            <span class="pn">3</span
-            ><span
-              ><strong>UI yang Mudah Dipahami</strong> — tampilan bersih untuk
-              semua kalangan usia</span
-            >
-          </div>
-        </div>
         <div class="g2">
           <div class="card rv">
             <div class="tm">Pernyataan Masalah</div>
@@ -417,15 +388,42 @@
               </li>
             </ol>
           </div>
-        </div
+        </div>
+        <div class="figma rv">
+          <iframe
+            data-src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FVixCpV5F22Pqcf9R2uTDmM%2FDefine%3Fnode-id%3D0-1%26t%3DioGwqlFfmxFtUabq-1"
+            allowfullscreen
+            loading="lazy"
+            title="Figma — Define Board"
+          ></iframe>
+          <div class="fbar">
+            <span class="fname"
+              ><span class="fdot"></span>define board &middot; Page 1</span
+            ><a
+              href="https://www.figma.com/design/VixCpV5F22Pqcf9R2uTDmM/Define?node-id=0-1&t=ioGwqlFfmxFtUabq-1"
+              target="_blank"
+              rel="noopener"
+              class="btn-t"
+              >Buka di Figma
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                <path
+                  d="M1 9L9 1M9 1H4M9 1v5"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></a>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- IDEATE — soft -->
     <div class="band bs" id="ideate">
       <div class="inner">
-        <div class="pill">Fase 03 — Membentuk Pengertian</div>
-        <h2 class="dh">3. <em>Berideasi</em></h2>
+        <div class="pill">Fase 03</div>
+        <h2 class="dh">3. <em>Idiate</em></h2>
         <p class="bm">
           Eksplorasi ide solusi dari brainstorming kasar hingga arsitektur
           aplikasi yang matang dan siap diprototiping.
@@ -439,11 +437,6 @@
               8 ide sketsa dalam 8 menit — mendorong kreativitas cepat dan
               diversitas solusi yang beragam sebelum masuk ke wireframe.
             </p>
-            <div class="tags">
-              <span class="tag">Crazy 8 Method</span
-              ><span class="tag">Sketsa Cepat</span
-              ><span class="tag">Vote Iterasi</span>
-            </div>
           </div>
         </div>
         <div class="figma rv">
@@ -560,12 +553,6 @@
               Komponen button, typography, color palette, tabs, popup, icon, dan
               logo yang konsisten sebagai fondasi prototipe.
             </p>
-            <div class="tags">
-              <span class="tag">Components</span
-              ><span class="tag">Typography</span
-              ><span class="tag">Color System</span
-              ><span class="tag">Iconography</span>
-            </div>
           </div>
         </div>
         <div class="figma rv">
@@ -602,21 +589,13 @@
     <!-- PROTOTYPE — white -->
     <div class="band bw" id="prototype">
       <div class="inner">
-        <div class="pill">Fase 04 — Prototipe</div>
+        <div class="pill">Fase 04</div>
         <h2 class="dh">4. <em>Prototipe</em></h2>
         <p class="bm">
           Prototipe high-fidelity di Figma mencakup perjalanan pengguna utama:
           Login/Register, Beranda, Pemesanan Kendaraan, Pemesanan Makanan,
           Metode Pembayaran, hingga Detail Pesanan.
         </p>
-        <div class="ptabs">
-          <button class="ptab on">Login / Register</button>
-          <button class="ptab">Beranda</button>
-          <button class="ptab">Pemesanan Kendaraan</button>
-          <button class="ptab">Pemesanan Makanan</button>
-          <button class="ptab">Pembayaran</button>
-          <button class="ptab">Detail Pesanan</button>
-        </div>
         <div class="figma rv">
           <iframe
             style="height: 660px"
@@ -627,8 +606,7 @@
           ></iframe>
           <div class="fbar">
             <span class="fname"
-              ><span class="fdot"></span>253_Fadhiel 
-              Transportation</span
+              ><span class="fdot"></span>Prototype</span
             ><a
               href="https://www.figma.com/proto/0J8HKkdbNuZebrnvUVw709/prototype?node-id=0-1&t=vIumWbXwzjoPHOe5-1"
               target="_blank"
@@ -672,7 +650,7 @@
     <!-- TEST — soft -->
     <div class="band bs" id="test">
       <div class="inner">
-        <div class="pill">Fase 05 — Tes</div>
+        <div class="pill">Fase 05</div>
         <h2 class="dh">5. <em>Tes</em></h2>
         <p class="bm">
           Memastikan kemudahan dan kenyamanan pemesanan melalui pengujian
@@ -681,11 +659,11 @@
         <!-- Frame Foto User Tester -->
         <div class="tester-card rv">
           <div class="tester-photo">
-            <img src="img/tester.png" alt="Foto penguji — Iqbal Abdullah" />
+            <img src="img/sa.jpeg"/>
           </div>
           <div class="tester-info">
             <div class="cap" style="color: var(--blue); margin-bottom: var(--s8)">Penguji</div>
-            <div class="tester-name">Iqbal Abdullah</div>
+            <div class="tester-name">Ferdinand Andreas</div>
             <div class="tester-role">Mahasiswa, 19 Tahun</div>
             <div class="tester-quote">"Jarang menggunakan aplikasi transportasi online"</div>
           </div>
@@ -703,27 +681,27 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Membuka &amp; Beranda</td>
+                  <td>Pemesanan Layanan </td>
                   <td><span class="ok">&#x2714; Berhasil</span></td>
                   <td>Mudah dipahami</td>
                 </tr>
                 <tr>
-                  <td>Lokasi Masukan</td>
+                  <td>Pemesanan Jadwal</td>
                   <td><span class="ok">&#x2714; Berhasil</span></td>
                   <td>Alur jelas</td>
                 </tr>
                 <tr>
-                  <td>Estimasi &amp; Pesan</td>
+                  <td>Estimasi &amp; Harga</td>
                   <td><span class="ok">&#x2714; Berhasil</span></td>
                   <td>Harga jelas</td>
                 </tr>
                 <tr>
-                  <td>Pencarian Pengemudi</td>
+                  <td>SOS Darurat</td>
                   <td><span class="ok">&#x2714; Berhasil</span></td>
                   <td>Status dimengerti</td>
                 </tr>
                 <tr>
-                  <td>Perjalanan Selesai</td>
+                  <td>Fitur Preferensi</td>
                   <td><span class="ok">&#x2714; Berhasil</span></td>
                   <td>Konsisten</td>
                 </tr>
@@ -758,15 +736,14 @@
               <div class="ba-box ba-before">
                 <div class="ba-lbl">Sebelumnya</div>
                 <div class="ba-txt">
-                  Tombol "Hubungi Driver" sulit ditemui setelah perjalanan
-                  selesai.
+                  Sebagian pengguna menginginkan metode pembayaran yang lebih beragam dan praktis, 
+                  khususnya melalui Virtual Account yang dapat langsung terverifikasi setelah pembayaran berhasil dilakukan.
                 </div>
               </div>
               <div class="ba-box ba-after">
                 <div class="ba-lbl">Sesudah</div>
                 <div class="ba-txt">
-                  Dipindah ke Navbar bersebelahan Riwayat Perjalanan — langsung
-                  dapat diakses setelah perjalanan berakhir.
+                  Menambahkan metode pembayaran Virtual Account pada halaman pembayaran untuk memberikan alternatif pembayaran yang lebih fleksibel dan memudahkan pengguna yang menggunakan layanan mobile banking.
                 </div>
               </div>
             </div>
@@ -778,7 +755,7 @@
               aplikasi ini langsung menampilkan fitur utama yang tersedia."
             </div>
             <div class="bq" style="margin-bottom: 0">
-              Q2: "Tombol kontak driver sulit ditemui."
+              Q2: "Saya lebih sering menggunakan mobile banking, sehingga akan lebih praktis jika tersedia metode pembayaran Virtual Account."
             </div>
           </div>
         </div>
@@ -788,11 +765,7 @@
             class="bm"
             style="font-size: 0.9rem; margin-bottom: 0; max-width: none"
           >
-            Prototipe "LEKAS" berhasil diuji secara fungsional untuk kebutuhan
-            dasar transportasi. Aplikasi mudah digunakan dan alurnya jelas.
-            Pengembangan selanjutnya fokus pada fitur sekunder seperti
-            notifikasi real-time dan layanan non-transportasi untuk meningkatkan
-            daya saing dengan super App yang ada.
+            Hasil pengujian menunjukkan bahwa prototype yang dikembangkan telah mampu membantu pengguna dalam menyelesaikan seluruh tugas utama yang diberikan, seperti pemesanan transportasi, pemesanan makanan, penjadwalan perjalanan, penggunaan fitur Share Location, dan SOS Darurat. Secara umum, pengguna menilai bahwa alur penggunaan mudah dipahami, navigasi cukup jelas, serta tampilan antarmuka memiliki konsistensi yang baik. Meskipun demikian, pengujian juga menghasilkan beberapa masukan untuk pengembangan lebih lanjut, salah satunya adalah penambahan metode pembayaran yang lebih beragam, seperti Virtual Account. Masukan tersebut diharapkan dapat menjadi bahan evaluasi untuk meningkatkan kenyamanan dan pengalaman pengguna pada pengembangan prototype berikutnya.
           </p>
         </div>
       </div>
@@ -801,11 +774,7 @@
     <!-- PROFILE — white -->
     <div class="band bw" id="profile">
       <div class="inner" style="text-align: center">
-        <div class="pill" style="margin: 0 auto var(--s20)">Pembuat</div>
         <h2 class="dh" style="text-align: center">Profil <em>Pembuat</em></h2>
-        <p class="bm" style="margin: 0 auto var(--s48); text-align: center">
-          Mahasiswa yang bersemangat dalam dunia UI/UX Design.
-        </p>
         <div class="rv" style="display: flex; justify-content: center">
           <div class="profile">
             <div class="pava">
@@ -825,8 +794,8 @@
                 />
               </svg>
             </div>
-            <div class="pname">Fadhiel</div>
-            <div class="pid">253</div>
+            <div class="pname">Fadhiel Fauzi Firoos</div>
+            <div class="pid">253307020</div>
             <div class="socs">
               <a href="#" class="soc" title="LinkedIn" aria-label="LinkedIn"
                 ><svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -885,10 +854,8 @@
     <footer class="footer">
       <div style="display: flex; align-items: center; gap: var(--s12)">
         <a href="#hero" class="fwm">LEKAS</a>
-        <div class="fdiv"></div>
-        <p class="fp">Didesain dengan &#9829; oleh </p>
       </div>
-      <div class="fr">253&middot; UI/UX Case Study &middot; 2025</div>
+      <div class="fr">2533307020 &middot; UI/UX Case Study &middot; 2026</div>
     </footer>
     <div class="legal">
       <p>
